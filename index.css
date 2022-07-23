@@ -1,0 +1,85 @@
+@font-face {
+    src: url("./font/CursedTimerULiL.ttf");
+    font-family: Cursed Timer ULiL;
+}
+
+@font-face {
+    src: url("./font/verdana-bold.ttf");
+    font-family: Verdana;
+}
+
+html {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.main-container {
+    width: 575px;
+    height: 385px;
+    /* background: aqua; */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#home-num-record,
+#guest-num-record {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    line-height: 130px;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    border-radius: 3px;
+    color: #F94F6D;
+    font-size: 60px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* padding-top: 20px;
+    padding-right: 30px; */
+    box-sizing: border-box;
+}
+
+#home-plus-btn-container,
+#guest-plus-btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#home-plus-btn-1,
+#home-plus-btn-2,
+#home-plus-btn-3,
+#guest-plus-btn-1,
+#guest-plus-btn-2,
+#guest-plus-btn-3 {
+    width: 42px;
+    height: 42px;
+    /* background-color: green; */
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    color: #9AABD8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B244A;
+}
